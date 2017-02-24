@@ -1,0 +1,25 @@
+<in.srain.cube.views.ptr.PtrFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/store_house_ptr_frame"
+    xmlns:cube_ptr="http://schemas.android.com/apk/res-auto"
+    tools:context="vn.com.z11.z11app.Tabfragment.Tab1Fragment"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/txtv_noti"
+        android:textSize="30sp"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="5dp"
+        android:id="@+id/recycle_mylession"
+        ></android.support.v7.widget.RecyclerView>
+
+</in.srain.cube.views.ptr.PtrFrameLayout>

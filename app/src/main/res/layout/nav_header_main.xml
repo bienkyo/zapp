@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@drawable/wallpaper1"
+    android:gravity="bottom"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:maxWidth="80dp"
+        android:maxHeight="80dp"
+        android:layout_alignParentLeft="true"
+        android:src="@android:drawable/sym_def_app_icon" />
+
+
+        <TextView
+            android:id="@+id/txtv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+           android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtv_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="kienlv@gmail.com"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="0dp"
+        android:id="@+id/img_login_out"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:src="@drawable/login_draw"
+
+        />
+
+</LinearLayout>

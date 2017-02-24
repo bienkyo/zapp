@@ -1,0 +1,59 @@
+<in.srain.cube.views.ptr.PtrFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cube_ptr="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/store_house_ptr_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="vn.com.z11.z11app.Tabfragment.Tab3Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtv_noti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textSize="30sp" />
+
+    <GridView
+        android:id="@+id/gridview_folder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:numColumns="3"
+        android:paddingTop="5dp"></GridView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/loading"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btn_floating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/add_icon"
+            android:layout_margin="@dimen/fab_margin"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            />
+    </RelativeLayout>
+    </FrameLayout>
+
+
+
+
+
+
+</in.srain.cube.views.ptr.PtrFrameLayout>

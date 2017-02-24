@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:title="@string/pref_native_language_label"
+        android:key="@string/pref_native_language_key"
+        />
+    <SwitchPreference
+        android:title="@string/pref_sound_effects_label"
+        android:key="@string/pref_sound_effects_key"
+        android:defaultValue="@string/pref_sound_effects_default"
+        />
+    <SwitchPreference android:title="@string/pref_enable_notification_label"
+        android:key="@string/pref_enable_notification_key"
+        android:defaultValue="@string/pref_enable_notification_default"/>
+    <SwitchPreference
+        android:title="@string/pref_make_payment_label"
+        android:key="@string/pref_make_payment_key"
+        android:summary="@string/pref_make_payment_summary"
+        android:defaultValue="@string/pref_make_payment_default"
+        />
+</PreferenceScreen>

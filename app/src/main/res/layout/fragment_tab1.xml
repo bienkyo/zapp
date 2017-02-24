@@ -1,0 +1,30 @@
+
+    <in.srain.cube.views.ptr.PtrFrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/store_house_ptr_frame"
+        xmlns:cube_ptr="http://schemas.android.com/apk/res-auto"
+        tools:context="vn.com.z11.z11app.Tabfragment.Tab1Fragment"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <GridView
+                android:id="@+id/gridView1"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView1"
+                android:numColumns="3" >
+
+            </GridView>
+
+        </LinearLayout>
+
+
+    </in.srain.cube.views.ptr.PtrFrameLayout>
+
+
